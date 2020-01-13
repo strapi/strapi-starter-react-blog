@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "setup": "cd frontend && yarn install && cd ../backend && yarn install"
+  }
+}
