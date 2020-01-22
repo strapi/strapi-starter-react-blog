@@ -1,6 +1,6 @@
 # React Strapi Blog Starter
 
-Strapi starter for creating a blog with React.
+React starter for creating a blog with Strapi.
 
 This starter allows you to try Strapi with React with the example of a simple blog. It is fully customizable and due to the fact that it is open source, fully open to contributions. Do not hesitate to add new features etc ...
 
@@ -11,7 +11,7 @@ You may want to know how to develop such a starter by your own! This starter is 
 ### Features
 
 - 2 Content types: Article, Category
-- 2 Created articles
+- Permissions set to `true` for article and category
 - Apollo integration (GraphQL) for fetching data from strapi
 - Responsive design using UIkit
 
@@ -23,7 +23,7 @@ You may want to know how to develop such a starter by your own! This starter is 
 
 ### Getting started
 
-*Clone the repository and install dependencies*
+**Clone the repository and install dependencies**
 
 ```
 git clone https://github.com/strapi/react-strapi-blog-starter.git
@@ -49,9 +49,9 @@ strapi dev
 
 Server is running here => [http://localhost:1337](http://localhost:1337)
 
-### Other blog starters
+### What you need to do
 
-  - Vuejs Strapi Blog Starter, work in progress...
-  - Gatsby Strapi Blog Starter, 6 february
-  - Next.js Strapi Blog Starter, 20 february
-  - Nuxt.js Strapi Blog Starter, 6 March
+Create your admin user and after that you'll only need to create your articles and your categories
+To do this, head to your strapi admin panel just right here => [http://localhost:1337/admin](http://localhost:1337/admin)
+
+Enjoy this starter
