@@ -1,4 +1,4 @@
-# React Strapi Blog Starter
+# Strapi Starter React Blog
 
 React starter for creating a blog with Strapi.
 
@@ -26,8 +26,8 @@ You may want to know how to develop such a starter by your own! This starter is 
 **Clone the repository and install dependencies**
 
 ```
-git clone https://github.com/strapi/react-strapi-blog-starter.git
-cd react-strapi-blog-starter
+git clone https://github.com/strapi/strapi-starter-react-blog.git
+cd strapi-starter-react-blog
 yarn setup
 ```
 
