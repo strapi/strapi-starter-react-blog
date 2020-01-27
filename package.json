@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "setup yarn": "cd frontend && yarn install && cd ../backend && yarn install"
+    "setup yarn": "cd frontend && yarn install && cd ../backend && yarn install",
     "setup npm": "cd frontend && npm install && cd ../backend && npm install"
   }
 }
