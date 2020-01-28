@@ -9,6 +9,9 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "scripts": {
+    "seed": "node scripts/seed.js"
+  },
   "devDependencies": {},
   "dependencies": {
     "knex": "<0.20.0",
