@@ -31,15 +31,6 @@ cd strapi-starter-react-blog
 yarn setup
 ```
 
-### Run your React frontend
-
-```
-cd frontend
-yarn start
-```
-
-Server is running here => [http://localhost:3000](http://localhost:3000)
-
 ### Run your Strapi backend
 
 ```
@@ -48,6 +39,15 @@ strapi dev
 ```
 
 Server is running here => [http://localhost:1337](http://localhost:1337)
+
+### Run your React frontend
+
+```
+cd frontend
+yarn start
+```
+
+Server is running here => [http://localhost:3000](http://localhost:3000)
 
 ### What you need to do
 
