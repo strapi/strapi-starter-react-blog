@@ -74,7 +74,7 @@ yarn develop
 npm run develop
 ```
 
-Gatsby server is running here => [http://localhost:8000](http://localhost:8000)
+React server is running here => [http://localhost:3000](http://localhost:3000)
 Strapi server is running here => [http://localhost:1337](http://localhost:1337)
 
 Enjoy this starter
