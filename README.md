@@ -12,46 +12,69 @@ You may want to know how to develop such a starter by your own! This starter is 
 
 - 2 Content types: Article, Category
 - Permissions set to `true` for article and category
+- 2 Created articles
+- 3 Created categories
 - Apollo integration (GraphQL) for fetching data from strapi
 - Responsive design using UIkit
 
 ### Pages
 
 - "/" display every articles
-- "/articles/:id" display one article
+- "/article/:id" display one article
 - "/category/:id" display articles depending on the category
 
 ### Getting started
 
 **Clone the repository and install dependencies**
 
-```
+```bash
 git clone https://github.com/strapi/strapi-starter-react-blog.git
 cd strapi-starter-react-blog
-yarn setup
+
+# Using yarn
+yarn setup:yarn
+
+# Using npm
+npm run setup:npm
 ```
 
-### Run your Strapi backend
+### Start the backend and frontend servers
 
+```bash
+# Using yarn
+yarn develop:yarn
+
+# Using npm
+npm run develop:npm
 ```
+
+Alternatively, you can still start your servers separately:
+
+### Start the backend server
+
+```bash
 cd backend
-strapi dev
+
+# Using yarn
+yarn develop
+
+# Using npm
+npm run develop
 ```
 
-Server is running here => [http://localhost:1337](http://localhost:1337)
+### Start the frontend server
 
-### Run your React frontend
-
-```
+```bash
 cd frontend
-yarn start
+
+# Using yarn
+yarn develop
+
+# Using npm
+npm run develop
 ```
 
-Server is running here => [http://localhost:3000](http://localhost:3000)
-
-### What you need to do
-
-Create your admin user and after that you'll only need to create your articles and your categories
-To do this, head to your strapi admin panel just right here => [http://localhost:1337/admin](http://localhost:1337/admin)
+Gatsby server is running here => [http://localhost:8000](http://localhost:8000)
+Strapi server is running here => [http://localhost:1337](http://localhost:1337)
 
 Enjoy this starter
