@@ -38,7 +38,9 @@ yarn setup:yarn
 npm run setup:npm
 ```
 
-### Start the backend and frontend servers
+### Scaffold your project
+
+This command will launch both of your backend and frontend server and do a data migration in your backend server
 
 ```bash
 # Using yarn
