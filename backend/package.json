@@ -8,13 +8,15 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "seed": "node scripts/seed.js"
+    "heroku-prebuild": "node scripts/postgres-env.js"
   },
   "devDependencies": {},
   "dependencies": {
+    "dotenv": "^8.2.0",
     "fs": "^0.0.1-security",
     "knex": "<0.20.0",
     "path": "^0.12.7",
+    "pg": "7.4.3",
     "rimraf": "^3.0.1",
     "sqlite3": "latest",
     "strapi": "3.0.0-beta.18.4",
