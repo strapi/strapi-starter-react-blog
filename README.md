@@ -19,6 +19,18 @@ Once you have created these accounts you can deploy your instance by clicking on
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/strapi/strapi-starter-react-blog)
 
+### Deploy the frontend
+
+**Netflify**
+
+To deploy this Strapi instance you'll need:
+
+- [A Netilfy account](https://app.netlify.com/signup) for free
+
+Once you have created your account you can deploy your instance by clicking on this button.
+
+[![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/strapi/strapi-starter-react-blog)
+
 ### Features
 
 - 2 Content types: Article, Category

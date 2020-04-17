@@ -1,0 +1,7 @@
+[build]
+  base = "frontend/"
+  publish = "build/"
+  command = "yarn build"
+
+[template.environment]
+  REACT_APP_BACKEND_URL = "Strapi API backend URL"
