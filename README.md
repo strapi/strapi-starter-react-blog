@@ -31,7 +31,7 @@ Once you have created your account you can deploy your instance by clicking on t
 
 [![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/strapi/strapi-starter-react-blog)
 
-- Select a repository name and fill the React app backend url with the url of your Strapi instance on Heroku (eg: https://your-app.herokuapp.com) without the trailing slash
+- Select a repository name and fill the API_URL with your Strapi instance on Heroku (eg: https://your-app.herokuapp.com) without the trailing slash
 
 ### Features
 
