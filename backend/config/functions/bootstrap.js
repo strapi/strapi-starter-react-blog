@@ -26,7 +26,7 @@ const setDefaultPermissions = async () => {
     .query("permission", "users-permissions")
     .find({ type: "application", role: role.id });
   await Promise.all(
-    permissions.map((p) =>
+    permissions.map(p =>
       strapi
         .query("permission", "users-permissions")
         .update({ id: p.id }, { enabled: true })
@@ -38,14 +38,14 @@ const isFirstRun = async () => {
   const pluginStore = strapi.store({
     environment: strapi.config.environment,
     type: "type",
-    name: "setup",
+    name: "setup"
   });
   const initHasRun = await pluginStore.get({ key: "initHasRun" });
   await pluginStore.set({ key: "initHasRun", value: true });
   return !initHasRun;
 };
 
-const getFilesizeInBytes = (filepath) => {
+const getFilesizeInBytes = filepath => {
   var stats = fs.statSync(filepath);
   var fileSizeInBytes = stats["size"];
   return fileSizeInBytes;
@@ -54,10 +54,10 @@ const getFilesizeInBytes = (filepath) => {
 const createSeedData = async () => {
   const categoriesPromises = categories.map(({ ...rest }) => {
     return strapi.services.category.create({
-      ...rest,
+      ...rest
     });
   });
-  const articlesPromises = articles.map((article) => {
+  const articlesPromises = articles.map(article => {
     const { imageFileName, mimeType, ...rest } = article;
     const filepath = path.join(
       strapi.config.seed.path,
@@ -68,15 +68,15 @@ const createSeedData = async () => {
       path: filepath,
       name: imageFileName,
       size,
-      type: mimeType,
+      type: mimeType
     };
     const files = {
-      image,
+      image
     };
     return strapi.services.article.create(
       {
         author: null,
-        ...rest,
+        ...rest
       },
       { files }
     );
@@ -92,7 +92,7 @@ const setDefaultFileUploader = async () => {
   const pluginStore = strapi.store({
     environment: strapi.config.environment,
     type: "plugin",
-    name: "upload",
+    name: "upload"
   });
   const config = await pluginStore.get({ key: "provider" });
   await pluginStore.set({
@@ -104,9 +104,9 @@ const setDefaultFileUploader = async () => {
         name: "Cloudinary",
         cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
         api_key: process.env.CLOUDINARY_API_KEY,
-        api_secret: process.env.CLOUDINARY_API_SECRET,
-      },
-    },
+        api_secret: process.env.CLOUDINARY_API_SECRET
+      }
+    }
   });
 };
 

@@ -1,7 +1,5 @@
 # Strapi Starter React Blog
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/strapi/strapi-starter-react-blog)
-
 React starter for creating a blog with Strapi.
 
 This starter allows you to try Strapi with React with the example of a simple blog. It is fully customizable and due to the fact that it is open source, fully open to contributions. Do not hesitate to add new features etc ...
@@ -9,6 +7,17 @@ This starter allows you to try Strapi with React with the example of a simple bl
 You may want to know how to develop such a starter by your own! This starter is actually the result of this [tutorial](https://strapi.io/blog/build-a-blog-with-react-strapi-and-apollo)
 
 ![screenshot image](/screenshot.png)
+
+### Deploy the backend
+
+To deploy this Strapi instance you'll need:
+
+- [An Heroku account](https://signup.heroku.com/) for free
+- [A Cloudinary account for saving images](https://cloudinary.com/users/register/free) for free
+
+Once you have created these accounts you can deploy your instance by clicking on this button
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/strapi/strapi-starter-react-blog)
 
 ### Features
 
