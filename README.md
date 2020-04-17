@@ -12,7 +12,7 @@ You may want to know how to develop such a starter by your own! This starter is 
 
 To deploy this Strapi instance you'll need:
 
-- [An Heroku account](https://signup.heroku.com/) for free
+- [A Heroku account](https://signup.heroku.com/) for free
 - [A Cloudinary account for saving images](https://cloudinary.com/users/register/free) for free
 
 Once you have created these accounts you can deploy your instance by clicking on this button
@@ -30,6 +30,8 @@ To deploy this Strapi instance you'll need:
 Once you have created your account you can deploy your instance by clicking on this button.
 
 [![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/strapi/strapi-starter-react-blog)
+
+- Select a repository name and fill the React app backend url with the url of your Strapi instance on Heroku (eg: https://your-app.herokuapp.com) without the trailing slash
 
 ### Features
 
