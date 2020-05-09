@@ -11,6 +11,7 @@ You may want to know how to develop such a starter by your own! This starter is 
 ### Backend and Frontend deployment
 
 Tested on FreeBSD 12.1 with Nginx as reverse proxy enabled.
+[![asciicast](https://asciinema.org/a/OJcl9TYA8eWuzsLlh3hFHcf0Y.svg)](https://asciinema.org/a/OJcl9TYA8eWuzsLlh3hFHcf0Y)
 
 ### Features
 
