@@ -8,30 +8,10 @@ You may want to know how to develop such a starter by your own! This starter is 
 
 ![screenshot image](/screenshot.png)
 
-### Deploy the backend
+### Backend and Frontend deployment
 
-To deploy this Strapi instance you'll need:
-
-- [A Heroku account](https://signup.heroku.com/) for free
-- [A Cloudinary account for saving images](https://cloudinary.com/users/register/free) for free
-
-Once you have created these accounts you can deploy your instance by clicking on this button
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/strapi/strapi-starter-react-blog)
-
-### Deploy the frontend
-
-**Netlify**
-
-To deploy this Strapi instance you'll need:
-
-- [A Netlify account](https://app.netlify.com/signup) for free
-
-Once you have created your account you can deploy your instance by clicking on this button.
-
-[![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/strapi/strapi-starter-react-blog)
-
-- Select a repository name and fill the API_URL with your Strapi instance on Heroku (eg: https://your-app.herokuapp.com) without the trailing slash
+Tested on FreeBSD 12.1 with Nginx as reverse proxy enabled.
+[![asciicast](https://asciinema.org/a/OJcl9TYA8eWuzsLlh3hFHcf0Y.svg)](https://asciinema.org/a/OJcl9TYA8eWuzsLlh3hFHcf0Y)
 
 ### Features
 
