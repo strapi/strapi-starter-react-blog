@@ -50,34 +50,12 @@ Once you have created your account you can deploy your instance by clicking on t
 
 ### Getting started
 
-**Clone the repository and install dependencies**
+**Clone the repository**
 
 ```bash
 git clone https://github.com/strapi/strapi-starter-react-blog.git
 cd strapi-starter-react-blog
-
-# Using yarn
-yarn setup:yarn
-
-# Using npm
-npm run setup:npm
 ```
-
-### Scaffold your project
-
-This command will launch both of your backend and frontend servers and do a data migration in your backend server
-
-```bash
-# Using yarn
-yarn build:yarn
-yarn develop:yarn
-
-# Using npm
-npm run build:npm
-npm run develop:npm
-```
-
-Alternatively, you can still start your servers separately:
 
 ### Start the backend server
 
@@ -85,13 +63,11 @@ Alternatively, you can still start your servers separately:
 cd backend
 
 # Using yarn
-yarn build
-yarn seed
+yarn
 yarn develop
 
 # Using npm
-npm run build
-npm run seed
+npm install
 npm run develop
 ```
 
@@ -101,9 +77,11 @@ npm run develop
 cd frontend
 
 # Using yarn
+yarn
 yarn develop
 
 # Using npm
+npm install
 npm run develop
 ```
 
