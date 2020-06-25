@@ -10,22 +10,24 @@ You may want to know how to develop such a starter by your own! This starter is 
 
 ### Deploy the backend
 
-To deploy this Strapi instance you'll need:
+To deploy the Strapi instance you'll need:
 
-- [A Heroku account](https://signup.heroku.com/) for free
+- [An Heroku account](https://signup.heroku.com/) for free
 - [A Cloudinary account for saving images](https://cloudinary.com/users/register/free) for free
 
 Once you have created these accounts you can deploy your instance by clicking on this button
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/strapi/strapi-starter-react-blog)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/strapi/strapi-starter-blog)
+
+[Here](https://github.com/strapi/strapi-starter-blog) is the repository of the backend of this starter
 
 ### Deploy the frontend
 
-**Netlify**
+**On Netflify**
 
-To deploy this Strapi instance you'll need:
+To deploy this frontend you'll need:
 
-- [A Netlify account](https://app.netlify.com/signup) for free
+- [A Netilfy account](https://app.netlify.com/signup) for free
 
 Once you have created your account you can deploy your instance by clicking on this button.
 
@@ -33,13 +35,16 @@ Once you have created your account you can deploy your instance by clicking on t
 
 - Select a repository name and fill the API_URL with your Strapi instance on Heroku (eg: https://your-app.herokuapp.com) without the trailing slash
 
+**On Vercel**
+
+Coming soon...
+
 ### Features
 
 - 2 Content types: Article, Category
-- Permissions set to `true` for article and category
 - 2 Created articles
 - 3 Created categories
-- Apollo integration (GraphQL) for fetching data from strapi
+- Permissions set to `true` for article and category
 - Responsive design using UIkit
 
 ### Pages
@@ -50,34 +55,22 @@ Once you have created your account you can deploy your instance by clicking on t
 
 ### Getting started
 
-**Clone the repository**
+**Backend**
+
+See full instructions [here](https://github.com/strapi/strapi-starter-blog)
+
+**Frontend**
 
 ```bash
 git clone https://github.com/strapi/strapi-starter-react-blog.git
 cd strapi-starter-react-blog
 ```
 
-### Start the backend server
+#### Start the frontend server
 
 ```bash
-cd backend
-
 # Using yarn
-yarn
-yarn develop
-
-# Using npm
-npm install
-npm run develop
-```
-
-### Start the frontend server
-
-```bash
-cd frontend
-
-# Using yarn
-yarn
+yarn install
 yarn develop
 
 # Using npm
@@ -86,6 +79,5 @@ npm run develop
 ```
 
 React server is running here => [http://localhost:3000](http://localhost:3000)
-Strapi server is running here => [http://localhost:1337](http://localhost:1337)
 
 Enjoy this starter
