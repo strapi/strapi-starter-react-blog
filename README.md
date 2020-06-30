@@ -29,11 +29,11 @@ To deploy this frontend you'll need:
 
 - [A Netilfy account](https://app.netlify.com/signup) for free
 
-Once you have created your account you can deploy your instance by clicking on this button.
+Once you have created your account, add the url of your Heroku instance  (without the trailing slash) as a parameter to the following url.
 
-[![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/strapi/strapi-starter-react-blog)
+https://app.netlify.com/start/deploy?repository=https://github.com/strapi/strapi-starter-react-blog#REACT_APP_BACKEND_URL=<your-strapi-app.herokuapp.com>
 
-- Select a repository name and fill the API_URL with your Strapi instance on Heroku (eg: https://your-app.herokuapp.com) without the trailing slash
+- Visit this url to deploy your application
 
 **On Vercel**
 
