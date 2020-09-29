@@ -1,5 +1,14 @@
 # Strapi Starter React Blog
 
+> **Warning :warning:**
+>
+> This starter is deprecated and relies on the deprecated **[strapi/strapi-legacy-blog](https://github.com/strapi/strapi-legacy-blog)** repository.
+>
+> Instead, we recommend that you use our other React blog starters with better SEO support:
+>
+> * [**strapi-starter-gatsby-blog**](https://github.com/strapi/strapi-starter-gatsby-blog)
+> * [**strapi-starter-next-blog**](https://github.com/strapi/strapi-starter-next-blog)
+
 React starter for creating a blog with Strapi.
 
 This starter allows you to try Strapi with React with the example of a simple blog. It is fully customizable and due to the fact that it is open source, fully open to contributions. Do not hesitate to add new features etc ...
@@ -8,38 +17,7 @@ You may want to know how to develop such a starter by your own! This starter is 
 
 ![screenshot image](/screenshot.png)
 
-### Deploy the backend
-
-To deploy the Strapi instance you'll need:
-
-- [An Heroku account](https://signup.heroku.com/) for free
-- [A Cloudinary account for saving images](https://cloudinary.com/users/register/free) for free
-
-Once you have created these accounts you can deploy your instance by clicking on this button
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/strapi/strapi-starter-blog)
-
-[Here](https://github.com/strapi/strapi-starter-blog) is the repository of the backend of this starter
-
-### Deploy the frontend
-
-**On Netflify**
-
-To deploy this frontend you'll need:
-
-- [A Netilfy account](https://app.netlify.com/signup) for free
-
-Once you have created your account, add the url of your Heroku instance  (without the trailing slash) as a parameter to the following url.
-
-https://app.netlify.com/start/deploy?repository=https://github.com/strapi/strapi-starter-react-blog#REACT_APP_BACKEND_URL=<your-strapi-app.herokuapp.com>
-
-- Visit this url to deploy your application
-
-**On Vercel**
-
-Coming soon...
-
-### Features
+## Features
 
 - 2 Content types: Article, Category
 - 2 Created articles
@@ -47,26 +25,26 @@ Coming soon...
 - Permissions set to `true` for article and category
 - Responsive design using UIkit
 
-### Pages
+Pages:
 
 - "/" display every articles
 - "/article/:id" display one article
 - "/category/:id" display articles depending on the category
 
-### Getting started
+## Getting started
 
-**Backend**
+### Backend
 
-See full instructions [here](https://github.com/strapi/strapi-starter-blog)
+See full instructions [here](https://github.com/strapi/strapi-legacy-blog)
 
-**Frontend**
+### Frontend
 
 ```bash
 git clone https://github.com/strapi/strapi-starter-react-blog.git
 cd strapi-starter-react-blog
 ```
 
-#### Start the frontend server
+Then start the frontend server:
 
 ```bash
 # Using yarn
@@ -83,4 +61,4 @@ echo 'SKIP_PREFLIGHT_CHECK=true\nREACT_APP_BACKEND_URL="http://localhost:1337' >
 
 React server is running here => [http://localhost:3000](http://localhost:3000)
 
-Enjoy this starter
+Enjoy this starter!
